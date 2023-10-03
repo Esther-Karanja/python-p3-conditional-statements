@@ -22,7 +22,7 @@ def fizzbuzz(num):
         return "FizzBuzz"
     elif num%3==0:
         return  "Fizz"
-    elif num%5==0 or num%5==0:
+    elif num%5==0:
         return "Buzz"
     else:
         return num
